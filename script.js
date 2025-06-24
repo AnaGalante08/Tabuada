@@ -10,6 +10,7 @@ Btn.addEventListener('click', function() {
     for(i = 1 ; i <= 10; i++)
     {
 // fez uma variavel para guardar o calculo
+
         let valor = i * num;
         const multi = document.createElement ('p');
         multi.textContent = `${i} x ${num} = ${valor}`;
